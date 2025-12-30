@@ -1,0 +1,24 @@
+package ifExample;
+
+import java.util.Scanner;
+
+public class IfEx14 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.in);
+		
+		int cash = 20000; // 입금시 감소 , 출금시 증가
+		int balance = 30000; // 입금시 증가 , 출금시 감소 
+		int account = 11111; // 로그인시 사용
+		int password = 1234; // 로그인시 사용 
+		
+		System.out.println("===ATM===");
+		
+		System.out.println("1. 로그인 2. 종료");
+		int login = scan.nextInt();
+		
+		
+	}
+
+}

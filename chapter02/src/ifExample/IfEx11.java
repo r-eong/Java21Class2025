@@ -1,0 +1,40 @@
+package ifExample;
+
+import java.util.Scanner;
+
+public class IfEx11 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.in);
+		
+		int bulgogi = 1;
+		int shirimp = 2;
+		int coke = 3;
+		
+		System.out.println("1. 불고기버거 : 8700원 \n2. 새우버거 : 6200원 \n3. 콜라 : 1500원");
+		
+		System.out.println("메뉴를 선택하세요 : ");
+		int menu = scan.nextInt();
+		
+		System.out.println("현금을 입력하세요 : ");
+		int money = scan.nextInt();
+		
+		int price = 0;
+		if(menu == 1) {
+			price = money - 8700;
+		}else if(menu == 2) {
+			price = money - 6500;
+		}else {
+			price = money - 1500;
+		}
+		
+		if(price < 0) {
+			System.out.println("현금이 부족합니다");
+		}else {
+			System.out.println("===영수증===");
+			System.out.printf("잔돈 : %d원", price);
+		}
+	}
+
+}

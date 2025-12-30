@@ -1,0 +1,26 @@
+package ifExample;
+
+import java.util.Scanner;
+
+public class ifEx01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int dbid = 1234;
+		int dbpw = 1111;
+		
+		Scanner scan = new Scanner(System.in);
+		
+		int id = scan.nextInt();
+		System.out.printf("아이디 입력 : %d", id);
+		int pw = scan.nextInt();
+		System.out.printf("비밀번호 입력 : %d", pw);
+		
+		if(id == 1234 && pw == 1111) {
+			System.out.printf("로그인 성공");
+		}else {
+			System.out.printf("로그인 실패");
+		}
+	}
+
+}

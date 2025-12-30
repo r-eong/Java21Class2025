@@ -1,0 +1,22 @@
+package example;
+
+public class OperateEx02 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int money = 178600;
+//		 money / 5000 = 35 이고 5000* 35 = 175000 이걸 money랑 뺴서 남은거 계산 
+		int mo1 = money / 5000;
+		System.out.println(mo1);
+		int mo2 = 5000 * mo1;
+		System.out.println(mo2);
+		int mo3 = money - mo2;
+		System.out.println(mo3);
+		int mo4 = mo3 / 1000;
+		System.out.println(mo4);
+		
+		boolean result = mo4 >= 3;
+		System.out.println(result);
+	}
+
+}

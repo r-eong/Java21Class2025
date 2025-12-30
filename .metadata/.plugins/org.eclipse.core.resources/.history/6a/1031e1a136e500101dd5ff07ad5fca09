@@ -1,0 +1,26 @@
+package ifExample;
+
+import java.util.Scanner;
+
+public class ScanTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		Scanner 는 자료를 키보드로부터 입력박을 수 있는 클래스(class)이다
+//		단, Scanner 는 class 이므로 반드시 new Scanner() 형식으로 생성해야 한다
+//		class 를 사용하는 근본적인 목적 : 메서드의 재사용이 용이하다
+		Scanner scan = new Scanner(System.in);  //인스턴스한다
+//		scan 은 새로 생성된 class 이름이다
+//		int age = 0;
+		System.out.println("나이를 입력하세요 : ");
+		int age = scan.nextInt();
+//		System.out.printf("홍길동의 나이는 %d세 입니다", age);
+		
+//		이름을 입력받아 출력
+		System.out.println("이름을 입력하세요 : ");
+		String name = scan.next();
+//		System.out.printf("이름은 %s님 입니다.", name);
+		System.out.printf("%s님의 나이는 %d세 입니다.", name, age);
+	}
+
+}

@@ -1,0 +1,24 @@
+package ifExample;
+
+import java.util.Scanner;
+
+public class IfEx05 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("금액을 입력하시오 >> ");
+		int money = scan.nextInt();
+		
+		System.out.printf("오만원권 : %d 매 \n", money/50000);
+		System.out.printf("일만원권 : %d 매 \n", (money-50000)/10000);
+		System.out.printf("오천원권 : %d 매 \n", (money-60000)/5000);
+		System.out.printf("천원권 : %d 매 \n", (money-65000)/1000);
+		System.out.printf("오백원 : %d 매 \n", (money-66000)/500);
+		System.out.printf("백원 : %d 매 \n", (money-66500)/100);
+		
+		System.out.println("5%7");
+	}
+
+}

@@ -1,0 +1,17 @@
+package ifExample;
+
+import java.util.Scanner;
+
+public class ifEx02 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int dbid = 0;
+		int dbpw = 0;
+		
+		Scanner scan = new Scanner(System.in);
+		
+		
+	}
+
+}

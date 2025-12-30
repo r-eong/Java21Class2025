@@ -1,0 +1,95 @@
+package ifExample;
+
+import java.util.Scanner;
+
+public class IfEx14 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.in);
+		
+		int cash = 20000; // 입금시 감소 , 출금시 증가
+		int balance = 30000; // 입금시 증가 , 출금시 감소 
+		int account = 11111; // 로그인시 사용
+		int password = 1234; // 로그인시 사용 
+		
+		System.out.println("===ATM===");
+		
+		System.out.println("1. 로그인 2. 종료");
+		int login = scan.nextInt();
+		
+//		ATM 종료
+		if(login == 2) {System.out.println("종료");}
+		
+//		ATM 사용 시작
+		if(login == 1) {
+			System.out.println("계좌와 비밀번호를 입력하세요.");
+			int myacc = scan.nextInt();
+			int mypw = scan.nextInt();
+			
+//			계좌, 비밀번호 확인
+			if(myacc == account && mypw == password) {
+				System.out.println("1. 입금 2. 출금 3. 조회");
+				int mypage = scan.nextInt();
+				
+//				입금
+				if(mypage == 1) {
+					System.out.println("입금 할 금액을 입력하세요.");
+					int plus = scan.nextInt();
+					System.out.printf("입금 후 통장 잔액 : %d원", balance + plus);
+					System.out.printf("입금 후 현금 잔액 : %d원", cash - plus);
+				}				
+//				출금
+				else if(mypage == 2) {
+					System.out.println("입금 할 금액을 입력하세요.");
+					int plus = scan.nextInt();
+					System.out.printf("입금 후 통장 잔액 : %d원", balance - plus);
+					System.out.printf("입금 후 현금 잔액 : %d원", cash + plus);
+				}
+//				조회
+				else {
+					System.out.printf("통장 잔액 : %d원", balance);
+				}
+			}else {
+				System.out.println("아이디와 패스워드를 확인해주세요.");
+			}	
+		}
+		
+//		-------------- switch ----------------
+		int info = scan.nextInt();
+		
+		switch(info) {
+//		로그인
+		case 1:
+			System.out.println("계좌와 비밀번호를 입력하세요");
+			int infoAcc = scan.nextInt();  // 계좌
+			int infoPw = scan.nextInt();  // 비밀번호
+			
+			if(infoAcc == account && infoPw == password) {
+				System.out.println("1. 입금 2. 출금 3. 조회");
+				int infoType = scan.nextInt();
+				
+				switch(infoType) {
+				case 1:
+					System.out.println("입금할 금액을 입력하세요.");
+					int cash2 = scan.nextInt();
+					
+					if(cash2 > cash) {
+						System.out.println("현금 잔액이 부족합니다.");
+					}else {
+						cash -= cash2;
+						balance += cash2;
+						System.out.printf("입금 후 통장 잔액 : %b원", balance);
+						System.out.printf("입금 내 현금 잔액 : %b원", cash);
+					}
+				}
+			}
+			break;
+//			종료
+		case 2:
+			System.out.println("종료");
+			break;
+		}
+	}
+
+}
