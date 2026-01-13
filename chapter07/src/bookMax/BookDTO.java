@@ -5,11 +5,15 @@ import java.text.DecimalFormat;
 public class BookDTO {
 //	멤버변수 
 //	접근 제어자 private 사용
+//	private 은 자기 자신 클래스에서는 접근할 수 있다.
 	private String bookTitle;  // 책 제목
 	private String author;  // 저자
 	private int price;  // 가격
 	
-//	매개변수 생성자 <- 필요한가?
+//	기본 생성자
+	public BookDTO() {}
+	
+//	매개변수 생성자
 	public BookDTO(String bookTitle, String author, int price) {
 		this.bookTitle = bookTitle;
 		this.author = author;

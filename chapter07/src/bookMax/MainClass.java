@@ -21,7 +21,8 @@ public class MainClass {
 		bL.printList();
 		
 		System.out.println("=== 최고가 책 ==");
-		bL.maxPrice();
+//		bL.maxPrice();
+		bL.maxPrice2();
 	}
 
 }
