@@ -27,7 +27,6 @@
     <fullyQualifiedTypeName name="staticEx.Student"/>
     <fullyQualifiedTypeName name="staticExample.StaticEx01"/>
     <fullyQualifiedTypeName name="privateEx.PrivateTest"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="arrayListEx03.Player"/>
     <fullyQualifiedTypeName name="bookMax.BookDTO"/>
     <fullyQualifiedTypeName name="bookMax.BookList"/>
@@ -40,15 +39,24 @@
     <fullyQualifiedTypeName name="inheritance03.BollPen"/>
     <fullyQualifiedTypeName name="inheritance03.FounctionPen"/>
     <fullyQualifiedTypeName name="javax.annotation.processing.SupportedSourceVersion"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="inheritance04.VIPCustomer"/>
-    <fullyQualifiedTypeName name="inheritance04.Customer"/>
     <fullyQualifiedTypeName name="shopMol.User"/>
     <fullyQualifiedTypeName name="shopMol.UserMenu"/>
     <fullyQualifiedTypeName name="org.xml.sax.SAXNotRecognizedException"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="shopMol.ItemManager"/>
     <fullyQualifiedTypeName name="shopMol.Item"/>
     <fullyQualifiedTypeName name="java.util.Locale.Category"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="omok.GameElements"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="otOmok.GameElements"/>
+    <fullyQualifiedTypeName name="polymorphism.Animal"/>
+    <fullyQualifiedTypeName name="polymorphism.AnimalTest"/>
+    <fullyQualifiedTypeName name="polymorphism.Human"/>
+    <fullyQualifiedTypeName name="polymorphism.Tiger"/>
+    <fullyQualifiedTypeName name="polymorphism.Eagle"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="inheritance04.GoldCustomer"/>
+    <fullyQualifiedTypeName name="inheritance04.Customer"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>

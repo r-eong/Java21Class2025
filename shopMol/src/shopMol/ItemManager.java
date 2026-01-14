@@ -96,4 +96,7 @@ public class ItemManager {
 		itemList.get(fixItemNum).name = fixItem;
 		itemList.get(fixItemNum).price = fixItemPrice;
 	}
+	
+//	장바구니리스트
+	
 }

@@ -38,12 +38,11 @@ public class Customer {
 		
 		return price;
 	}
-
-//	출력 메서드
+//	전체 출력 메서드
 	public void showCustomerInfo() {
-		System.out.print(customerName + "님의 등급은 " + customerGrade + "이며, 보너스는 " + df.format(bonusPoint) + "입니다. ");
+		System.out.println(customerName + "님의 등급은 " + customerGrade + "이며, 보너스는 " + df.format(bonusPoint) + "입니다. ");
 	}
-//	출력 다른방법
+//	전체 출력 다른방법
 	public String showCustomerInfo2() {
 		return customerName + "님의 등급은 " + customerGrade + "이며, 보너스는 " + df.format(bonusPoint) + "입니다. ";
 	}
