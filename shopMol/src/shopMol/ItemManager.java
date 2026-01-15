@@ -3,11 +3,14 @@ package shopMol;
 import java.util.*;
 
 public class ItemManager {
-	// 카테고리를 String 자료형으로 ArrayList생성
+//	카테고리를 String 자료형으로 ArrayList생성
 	ArrayList<String> category = new ArrayList<String>();
 	
-	//전체 아이템리스트를 Item 자료형으로 ArrayList생성
+//	전체 아이템리스트를 Item 자료형으로 ArrayList생성
 	ArrayList<Item> itemList = new ArrayList<Item>();
+	
+//	장바구니 배열
+	ArrayList<Item> cartList = new ArrayList<Item>();
 	
 	Scanner scan = new Scanner(System.in);
 	
@@ -74,12 +77,14 @@ public class ItemManager {
 			System.out.println("없는 카테고리 입니다.");
 		}
 		itemList.add(new Item(addItem, addItemPrice, addItemCate));
+		System.out.println();
 	}
 	
 //	아이템 삭제
 	public void delItem() {
 		int delItem = scan.nextInt();
 		itemList.remove(delItem);
+		System.out.println();
 	}
 	
 //	아이템, 금액 수정
@@ -97,6 +102,18 @@ public class ItemManager {
 		itemList.get(fixItemNum).price = fixItemPrice;
 	}
 	
-//	장바구니리스트
-	
+//	장바구니
+//	추가
+	public void addCart() {
+//		카테고리 출력 -> 카테고리 선택 -> 해당 카테고리 상품 출력
+		
+		for(int i = 0; i < itemList.size(); i++) {
+//			cartList.add();
+			
+		}
+	}
+//	목록
+	public void AllCart() {
+		
+	}
 }

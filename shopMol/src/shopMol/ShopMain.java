@@ -32,7 +32,7 @@ public class ShopMain {
 				if(sh.log == -1) {
 					System.out.println("로그인 후 이용 가능합니다.");
 				}
-				
+				sh.shopMenu();
 				
 //			메뉴 0 종료
 			}else {
