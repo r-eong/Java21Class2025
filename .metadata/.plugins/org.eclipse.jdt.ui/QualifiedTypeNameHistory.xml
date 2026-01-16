@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="bookMax.BookList"/>
-    <fullyQualifiedTypeName name="inheritance.ParentClass"/>
-    <fullyQualifiedTypeName name="inheritance.ChildClass"/>
-    <fullyQualifiedTypeName name="inheritance02.ColorTV"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="inheritance02.IPTV"/>
-    <fullyQualifiedTypeName name="inheritance03.ShapPencil"/>
-    <fullyQualifiedTypeName name="inheritance03.BollPen"/>
     <fullyQualifiedTypeName name="inheritance03.FounctionPen"/>
     <fullyQualifiedTypeName name="javax.annotation.processing.SupportedSourceVersion"/>
     <fullyQualifiedTypeName name="inheritance04.VIPCustomer"/>
@@ -35,16 +27,12 @@
     <fullyQualifiedTypeName name="interfaceTest.Calculator"/>
     <fullyQualifiedTypeName name="interfaceTest.CompleteCalc"/>
     <fullyQualifiedTypeName name="schedluer.SchedlueTest"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="schedluer.Schedluer"/>
     <fullyQualifiedTypeName name="schedluer.RoundRobin"/>
     <fullyQualifiedTypeName name="schedluer.PriorityAllocation"/>
     <fullyQualifiedTypeName name="schedluer.LeastJob"/>
     <fullyQualifiedTypeName name="interfaceTest.Calc"/>
-    <fullyQualifiedTypeName name="java.lang.StringTemplate"/>
     <fullyQualifiedTypeName name="interfaceTest02.Sell"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="interfaceTest02.Customer"/>
     <fullyQualifiedTypeName name="interfaceTest02.Buy"/>
     <fullyQualifiedTypeName name="queinterFace.Shelf"/>
@@ -59,5 +47,17 @@
     <fullyQualifiedTypeName name="interfaceExample02.Animal"/>
     <fullyQualifiedTypeName name="interfaceExample03.CircleInterface"/>
     <fullyQualifiedTypeName name="interfaceExample03.CircleClass"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="mapTest.StringTokenizer"/>
+    <fullyQualifiedTypeName name="java.lang.StringTemplate"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="hashMapEx.Location"/>
 </qualifiedTypeNameHistroy>
