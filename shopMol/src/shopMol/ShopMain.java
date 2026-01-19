@@ -14,10 +14,21 @@ public class ShopMain {
 		while(now) {
 //			메뉴
 			sh.menu();
+			
+//			관리자 상태체크  << 관리자 로그아웃하면 메인(첫화면)으로 돌아가려했는데 안됨
+			if(sh.log == -2) {
+				continue;
+			}
+//			
 			int menu = scan.nextInt();
+			
 //			메뉴 1 로그인
-			if(menu == 1) {
-				sh.login();
+			if(sh.log == -1) {  // 비로그인중
+				if(menu == 1) {
+					sh.login();
+				}else if(menu == 0) {
+					now = false;
+				}
 //			메뉴 2 로그아웃
 			}else if (menu == 2){
 //				로그인 안 했을 때 

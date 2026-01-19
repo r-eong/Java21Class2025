@@ -11,9 +11,9 @@ public class RunMain {
 		Scanner scan = new Scanner(System.in);
 		Random ran = new Random();
 		
-		Game game = new Game();
-		
 		HashMap<String, String> g = new HashMap<String, String>();
+		
+		Game game = new Game();
 		
 		g.put("한국", "서울");
 		g.put("베트남", "하노이");
@@ -27,17 +27,15 @@ public class RunMain {
 		System.out.println("*** 수도 맞추기 게임을 시작합니다! ***");
 		while(true) {
 			System.out.println("[1]추가 [2]퀴즈시작 [3] 종료\n메뉴선택>>");
-//			System.out.println(g);
-//			int menu = scan.nextInt();
+
 			String menu = scan.nextLine();
-			
 			
 //			1 추가
 			if(menu.equals("1")) {
 				System.out.println("현재 " + g.size() + "개의 나라가 입력되어있습니다.");
 				
 				while(true) {
-					System.out.print("추가할 나라/수도 입력 >> ");
+					System.out.print("추가할 나라/수도 입력" + (g.size() + 1) + ">> ");
 					String addInput = scan.nextLine();
 
 					if(addInput.equals("그만")) {
@@ -56,7 +54,7 @@ public class RunMain {
 //			2 퀴즈 시작
 			}else if(menu.equals("2")) {
 				System.out.println("퀴즈 시작!");
-				System.out.println(g);
+//				System.out.println(g);
 				
 				for(String s : g.keySet()) {
 					

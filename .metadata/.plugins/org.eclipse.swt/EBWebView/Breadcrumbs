@@ -1,174 +1,40 @@
-1:56:22 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
-1:56:22 Microsoft.Shutdown.TabStripModel.CloseAllTabs
-1:56:22 Microsoft.Shutdown.TabStripModel.CloseTabs
-1:56:22 Microsoft.Shutdown.TabStripModel.CloseTabs_EdgeBeforeClosingAllTabs
-1:56:22 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl
-1:56:22 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_TabClosable
-1:56:22 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_ClosingAll
-1:56:22 Microsoft.Shutdown.TabStripModel.CloseWebContentses
-1:56:22 Microsoft.Shutdown.TabStripModel.CloseWebContentses_FastShutdown
-1:56:22 Microsoft.Shutdown.TabStripModel.ShouldRunUnloadListenerBeforeClosing_false
-1:56:22 Tab91 RenderProcessGone
-1:56:22 Microsoft.UnloadController.ClearUnloadState
-1:56:22 Microsoft.Shutdown.TabStripModel.RunUnloadListenerBeforeClosing_false
-1:56:22 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_ClosedAll
-1:56:22 Microsoft.Shutdown.TabStripModel.SendDetachWebContentsNotifications
-1:56:22 Microsoft.UnloadController.ClearUnloadState
-1:56:22 Browser91 Close Tab91 at 0
-1:56:22 Tab91 WebContentsDestroyed
-1:56:22 Microsoft.UnloadController.TabStripEmpty
-1:56:22 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
-1:56:22 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
-1:56:22 Microsoft.Shutdown.OnWindowClosing
-1:56:22 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
-1:56:22 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
-1:56:22 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
-1:56:22 Widget Closed: BrowserWidget
-1:56:22 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
-1:56:22 Microsoft.Shutdown.OnWindowClosing
-1:56:22 Microsoft.Shutdown.OnWindowClosing_DeleteScheduled
-1:56:22 Microsoft.Browser_Removed
-1:56:35 Tab90 StartNav1337 #typed
-1:56:35 Tab90 FinishNav1337
-1:56:35 Tab90 PageLoad
-1:56:35 Tab90 StartNav1338 #typed
-1:56:35 Tab90 FinishNav1338
-1:56:35 Tab90 PageLoad
-1:56:36 Tab90 StartNav1339 #typed
-1:56:36 Tab90 FinishNav1339
-1:56:36 Tab90 PageLoad
-1:56:36 Tab90 StartNav1340 #typed
-1:56:36 Tab90 FinishNav1340
-1:56:36 Tab90 PageLoad
-1:56:36 Tab90 StartNav1341 #typed
-1:56:36 Tab90 FinishNav1341
-1:56:36 Tab90 PageLoad
-1:56:38 Tab90 StartNav1342 #typed
-1:56:38 Tab90 FinishNav1342
-1:56:38 Tab90 PageLoad
-1:56:39 Tab90 StartNav1343 #typed
-1:56:39 Tab90 FinishNav1343
-1:56:39 Tab90 PageLoad
-1:56:40 Tab90 StartNav1344 #typed
-1:56:40 Tab90 FinishNav1344
-1:56:40 Tab90 PageLoad
-1:56:43 Tab90 StartNav1345 #typed
-1:56:43 Tab90 FinishNav1345
-1:56:43 Tab90 PageLoad
-1:56:47 Tab90 StartNav1346 #typed
-1:56:47 Tab90 FinishNav1346
-1:56:47 Tab90 PageLoad
-1:56:48 Tab90 StartNav1347 #typed
-1:56:48 Tab90 FinishNav1347
-1:56:48 Tab90 PageLoad
-1:56:50 Tab90 StartNav1348 #typed
-1:56:50 Tab90 FinishNav1348
-1:56:50 Tab90 PageLoad
-1:56:50 Tab90 StartNav1349 #typed
-1:56:50 Tab90 FinishNav1349
-1:56:50 Tab90 PageLoad
-1:56:50 Tab90 StartNav1350 #typed
-1:56:50 Tab90 FinishNav1350
-1:56:50 Tab90 PageLoad
-1:56:50 Tab90 StartNav1351 #typed
-1:56:50 Tab90 FinishNav1351
-1:56:50 Tab90 PageLoad
-1:56:51 Tab90 StartNav1352 #typed
-1:56:51 Tab90 FinishNav1352
-1:56:51 Tab90 PageLoad
-1:57:01 Tab90 StartNav1353 #typed
-1:57:01 Tab90 FinishNav1353
-1:57:01 Tab90 PageLoad
-1:57:01 Tab90 StartNav1354 #typed
-1:57:01 Tab90 FinishNav1354
-1:57:01 Tab90 PageLoad
-1:57:02 Tab90 StartNav1355 #typed
-1:57:02 Tab90 FinishNav1355
-1:57:02 Tab90 PageLoad
-1:57:02 Tab90 StartNav1356 #typed
-1:57:02 Tab90 FinishNav1356
-1:57:02 Tab90 PageLoad
-1:57:05 Tab90 StartNav1357 #typed
-1:57:05 Tab90 FinishNav1357
-1:57:05 Tab90 PageLoad
-1:57:05 Tab90 StartNav1358 #typed
-1:57:05 Tab90 FinishNav1358
-1:57:05 Tab90 PageLoad
-1:57:05 Tab90 StartNav1359 #typed
-1:57:05 Tab90 FinishNav1359
-1:57:05 Tab90 PageLoad
-1:57:05 Tab90 StartNav1360 #typed
-1:57:05 Tab90 FinishNav1360
-1:57:05 Tab90 PageLoad
-1:57:21 Tab11 StartNav1361 #typed
-1:57:21 Tab11 FinishNav1361
-1:57:21 Tab11 PageLoad
-1:57:28 Tab11 StartNav1362 #typed
-1:57:28 Tab11 FinishNav1362
-1:57:28 Tab11 PageLoad
-1:57:29 Tab11 StartNav1363 #typed
-1:57:29 Tab11 FinishNav1363
-1:57:29 Tab11 PageLoad
-1:57:30 Tab11 StartNav1364 #typed
-1:57:30 Tab11 FinishNav1364
-1:57:30 Tab11 PageLoad
-1:57:44 Tab90 StartNav1365 #typed
-1:57:44 Tab90 FinishNav1365
-1:57:44 Tab90 PageLoad
-1:57:45 Tab90 StartNav1366 #typed
-1:57:45 Tab90 FinishNav1366
-1:57:45 Tab90 PageLoad
-1:57:45 Tab90 StartNav1367 #typed
-1:57:45 Tab90 FinishNav1367
-1:57:45 Tab90 PageLoad
-1:57:51 Tab90 StartNav1368 #typed
-1:57:51 Tab90 FinishNav1368
-1:57:51 Tab90 PageLoad
-1:57:51 Tab90 StartNav1369 #typed
-1:57:51 Tab90 FinishNav1369
-1:57:51 Tab90 PageLoad
-1:57:51 Tab90 StartNav1370 #typed
-1:57:51 Tab90 FinishNav1370
-1:57:51 Tab90 PageLoad
-1:57:52 Tab90 StartNav1371 #typed
-1:57:52 Tab90 FinishNav1371
-1:57:52 Tab90 PageLoad
-1:57:53 Tab90 StartNav1372 #typed
-1:57:53 Tab90 FinishNav1372
-1:57:53 Tab90 PageLoad
-1:57:53 Tab90 StartNav1373 #typed
-1:57:53 Tab90 FinishNav1373
-1:57:53 Tab90 PageLoad
-1:57:55 Tab90 StartNav1374 #typed
-1:57:55 Tab90 FinishNav1374
-1:57:55 Tab90 PageLoad
-1:58:44 Tab90 StartNav1375 #typed
-1:58:44 Tab90 FinishNav1375
-1:58:44 Tab90 PageLoad
-1:58:44 Tab90 StartNav1376 #typed
-1:58:44 Tab90 FinishNav1376
-1:58:44 Tab90 PageLoad
-1:58:45 Tab90 StartNav1377 #typed
-1:58:45 Tab90 FinishNav1377
-1:58:45 Tab90 PageLoad
-1:58:45 Tab90 StartNav1378 #typed
-1:58:45 Tab90 FinishNav1378
-1:58:45 Tab90 PageLoad
-1:58:45 Tab90 StartNav1379 #typed
-1:58:45 Tab90 FinishNav1379
-1:58:45 Tab90 PageLoad
-1:58:46 Tab90 StartNav1380 #typed
-1:58:46 Tab90 FinishNav1380
-1:58:46 Tab90 PageLoad
-1:58:46 Tab90 StartNav1381 #typed
-1:58:46 Tab90 FinishNav1381
-1:58:46 Tab90 PageLoad
-1:58:47 Tab90 StartNav1382 #typed
-1:58:47 Tab90 FinishNav1382
-1:58:47 Tab90 PageLoad
-1:58:47 Tab90 StartNav1383 #typed
-1:58:47 Tab90 FinishNav1383
-1:58:47 Tab90 PageLoad
-1:59:11 Tab90 StartNav1384 #typed
-1:59:11 Tab90 FinishNav1384
-1:59:11 Tab90 PageLoad
+8:38:14 Microsoft.Shutdown.TabStripModel.CloseAllTabs
+8:38:14 Microsoft.Shutdown.TabStripModel.CloseTabs
+8:38:14 Microsoft.Shutdown.TabStripModel.CloseTabs_EdgeBeforeClosingAllTabs
+8:38:14 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl
+8:38:14 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_TabClosable
+8:38:14 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_ClosingAll
+8:38:14 Microsoft.Shutdown.TabStripModel.CloseWebContentses
+8:38:14 Microsoft.Shutdown.TabStripModel.CloseWebContentses_FastShutdown
+8:38:14 Microsoft.Shutdown.TabStripModel.ShouldRunUnloadListenerBeforeClosing_false
+8:38:14 Tab245 FinishNav2409
+8:38:14 Tab245 RenderProcessGone
+8:38:14 Microsoft.UnloadController.ClearUnloadState
+8:38:14 Microsoft.Shutdown.TabStripModel.RunUnloadListenerBeforeClosing_false
+8:38:14 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_ClosedAll
+8:38:14 Microsoft.Shutdown.TabStripModel.SendDetachWebContentsNotifications
+8:38:14 Microsoft.UnloadController.ClearUnloadState
+8:38:14 Browser245 Close Tab245 at 0
+8:38:14 Tab245 WebContentsDestroyed
+8:38:14 Microsoft.UnloadController.TabStripEmpty
+8:38:14 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
+8:38:14 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
+8:38:14 Microsoft.Shutdown.OnWindowClosing
+8:38:14 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
+8:38:14 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
+8:38:14 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
+8:38:14 Widget Closed: BrowserWidget
+8:38:14 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
+8:38:14 Microsoft.Shutdown.OnWindowClosing
+8:38:14 Microsoft.Shutdown.OnWindowClosing_DeleteScheduled
+8:38:14 Microsoft.Browser_Removed
+8:39:01 Tab196 StartNav2410 #typed
+8:39:01 Tab196 FinishNav2410
+8:39:01 Tab196 PageLoad
+8:39:13 Tab242 StartNav2411 #typed
+8:39:13 Tab242 FinishNav2411
+8:39:13 Tab242 PageLoad
+8:39:13 Tab242 StartNav2412 #typed
+8:39:13 Tab242 FinishNav2412
+8:39:13 Tab242 PageLoad
+8:40:54 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp

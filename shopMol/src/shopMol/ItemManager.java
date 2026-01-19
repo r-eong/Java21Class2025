@@ -1,6 +1,7 @@
 package shopMol;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Scanner;
 
 public class ItemManager {
 //	카테고리를 String 자료형으로 ArrayList생성
@@ -15,6 +16,8 @@ public class ItemManager {
 	Scanner scan = new Scanner(System.in);
 	
 	String addItemCate;  // 카테고리 변환?
+	
+	User userId = new User();  // 객체화
 	
 	public ItemManager() {
 		info();
@@ -104,16 +107,103 @@ public class ItemManager {
 	
 //	장바구니
 //	추가
-	public void addCart() {
+	public void addCart(String loginId) {  // 로그인한 유저 받아감
 //		카테고리 출력 -> 카테고리 선택 -> 해당 카테고리 상품 출력
 		
-		for(int i = 0; i < itemList.size(); i++) {
-//			cartList.add();
+		boolean shoppingNow = true;
+		
+		while(shoppingNow) {
+			printCategory();  // 카테고리 출력
+			System.out.print("[-1] 종료 \n카테고리를 선택하세요 >> ");
+			int choiceCate = scan.nextInt();  // 카테고리 선택
 			
+//			쇼핑 종료
+			if(choiceCate == -1) {
+				shoppingNow = false;
+				continue;
+			}
+			
+//			카테고리 없음 예외처리
+			if(choiceCate > category.size()) {
+				System.out.println("카테고리 번호를 다시 확인하세요.");
+				return;
+			}
+			
+			System.out.print("[" + category.get(choiceCate) + "]");  // 선택한 카테고리 이름
+			System.out.println();
+			
+//			int cnt = 0;
+			String targetCategory = category.get(choiceCate); // 번호로 이름찾기
+//			선택한 카테고리 목록 출력
+			for(int i = 0; i < itemList.size(); i++) {
+				if(itemList.get(i).category.equals(targetCategory)) {
+//				출력문
+					System.out.println("[" + i + "]" + itemList.get(i).name +  " - " + itemList.get(i).price + "원");
+//				cnt++;  // 번호 매기기 위해
+				}
+			}
+			
+			System.out.print("상품을 선택하세요 >> ");
+			int choiceItem = scan.nextInt();  // 아이템 선택
+			Item addItem = itemList.get(choiceItem);  // 아이템 추가
+			
+			Item userAddItem = new Item(addItem.name, addItem.price, addItem.category, loginId);  // 배열
+			
+			cartList.add(userAddItem);  // 장바구니 추가
+			
+			System.out.println("[" + addItem.name + "] 이(가) 장바구니에 추가되었습니다.");
 		}
 	}
-//	목록
-	public void AllCart() {
+	
+//	장바구니 목록
+	public void AllCart(String loginId) {
+		System.out.println("=== " + loginId + "님의 장바구니 ===");
 		
+		int total = 0;  // 장바구니 총 금액 누적용
+		
+		for(Item i : cartList) {
+			if(i.usersId.equals(loginId)) {
+				System.out.println("[" + i.name + "] - " + i.price + "원");
+				total += i.price;
+			}
+		}
+	}
+	
+//	관리자메뉴 - 모든 유저 장바구니 목록
+	public void AllUserCart() {
+		System.out.println("=== 전체 유저 장바구니 목록 ===");
+		
+//		모든유저 장바구니 상태 예외처리
+//		if(cartList.size() == 0) {
+//			System.out.println("장바구니에 담긴 상품이 없습니다.");
+//			return;
+//		}
+		
+//		for(Item i : cartList) {
+//			System.out.println("--- " + i.usersId + "님 ---\n" + "[" + i.category + "]" + i.name + " - " + i.price + "원");
+//		}
+//		┖> --- kkk ---
+//		[과자]새우깡 - 1000원
+//		--- kkk ---
+//		[육류]돼지고기 - 8000원
+		
+//		유저별로 묶으려고
+		for(String id : userId.id) {
+			System.out.println("--- " + id + "님 ---");
+			
+			boolean state = false;  // 장바구니 보유상태 확인하려고
+			
+			for(Item i : cartList) {
+				if(i.usersId.equals(id)) {
+					System.out.println("[" + i.category + "]" + i.name + " - " + i.price + "원");
+					state = true;
+				}
+			}
+			
+//			모든유저 장바구니 상태 예외처리
+			if(!state) {
+				System.out.println("장바구니에 담긴 상품이 없습니다.");
+			}
+		}
 	}
 }
