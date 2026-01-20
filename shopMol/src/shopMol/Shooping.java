@@ -94,29 +94,32 @@ public class Shooping extends UserMenu {
 	
 	//쇼핑메뉴
 	public void shopMenu() {
-		System.out.println("[1]쇼핑목록\n[2]장바구니\n[0]뒤로가기");
-		int shopMenu = scan.nextInt();
-		
+		while(true) {
+			System.out.println("[1]쇼핑목록\n[2]장바구니\n[0]뒤로가기");
+			int shopMenu = scan.nextInt();
+			
 //		1 쇼핑 목록
-		if(shopMenu == 1) {
+			if(shopMenu == 1) {
 //			카테고리 출력 -> 카테고리 선택 -> 해당 카테고리 상품 출력
-			String currId = super.id[super.log];  // 로그인한 유저 아이디
-			im.addCart(currId);  // 장바구니 추가
-			
+				String currId = super.id[super.log];  // 로그인한 유저 아이디
+				im.addCart(currId);  // 장바구니 추가
+				
 //			im.printItemList();  // 상품 목록 전체출력
-			
+				
 //		2 장바구니
-		}else if(shopMenu == 2) {
-			String currId = super.id[super.log];  // 로그인한 유저 아이디
-			im.AllCart(currId);
-			
-//		3 쇼핑
-		}else if(shopMenu == 0) {
-			
-			
+			}else if(shopMenu == 2) {
+				String currId = super.id[super.log];  // 로그인한 유저 아이디
+				im.AllCart(currId);
+				
+//		3 뒤로가기
+			}else if(shopMenu == 0) {
+				break;
+				
 //		없는 번호 예외처리
-		}else {
-			System.out.println("메뉴를 다시 확인해주세요");
+			}else {
+				System.out.println("메뉴를 다시 확인해주세요");
+			}
+			
 		}
 	}
 	

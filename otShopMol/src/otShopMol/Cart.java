@@ -16,6 +16,6 @@ public class Cart {
 	
 //	출력
 	public void printCart() {
-		System.out.println("--- " + userId + " ---\n" + itemName + " - " + itemPrice + "(" + itemPrice + "개)");
+		System.out.println("--- " + userId + " ---\n" + itemName + " - " + itemPrice + "(" + quantity + "개)");
 	}
 }
